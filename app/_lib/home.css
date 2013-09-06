@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+}
+body{
+	background-color: grey;
+
+}
+nav ul{
+	background:rgba(0,0,0,.6);
+	font-size: 0;
+	padding: 0;
+}
+nav ul li{
+	display: inline-block;
+	font-size: 23px;
+	padding: 10px;
+	height: 50px;
+	vertical-align: top;
+	width: 20%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+nav ul li:hover{
+	background: rgba(0,0,0,.3);
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+#contenedor{
+	background-color: #fff;
+	margin: 0 auto;
+	max-width: 990px;
+}
+#contenido {
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#contenido h1{
+	text-align: center;
+}
+#contenido img{
+	margin-left: 50%;
+	margin-top: 100px;
+}
+#sesion{
+	margin-left: 890px;
+	margin-top: 0px;
+}
+/*Seccion de Productos*/
+#producto-principal{
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#nav-producto{
+	display: inline-block;
+	max-width: 25%;
+	margin-left: 10px;
+	margin-top: 30px;
+	position: absolute;
+}
+#nav-producto ul{
+	background:rgba(0,0,0,.6);
+	font-size: 0;
+	padding: 0;
+}
+#nav-producto ul li{
+	font-size: 20px;
+	height: 50px;
+	list-style: none;
+	padding: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#nav-producto ul li.active{
+	background:rgba(0,0,0,.3);
+}
+#nav-producto ul li:hover{
+	background:rgba(0,0,0,.3);
+}
+#nav-producto ul li a{
+	height: 100%;
+	color: white;
+	text-decoration: none;
+}
+#contenido-producto {
+	max-width: 80%;
+	display: inline-block;
+	margin-left: 190px;
+	margin-top: 10px;
+}
+#contenido-producto #registro-producto{
+	min-height: 140px;
+}
+#registro-producto form{
+	font-size: 20px;
+	margin-left: 20px;
+	min-height: 150px;
+}
+#registro-producto form input, select{
+	font-size: 22px;
+}
+#registro-producto form input#nombre_pro{
+	margin-left: 15px;
+}
+#registro-producto form select#categoria{
+	min-width: 150px;
+	margin-left: 2px;
+}
+#registro-producto form input#btn{
+	border: 0;
+	margin-top: 30px;
+	margin-left: 320px;
+	height: 40px;
+	width: 100px;
+}
+#registro-producto form input#btn:hover{
+	background: rgba(0,0,0,.6);
+}

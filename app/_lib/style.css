@@ -1,0 +1,36 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+#container{
+	margin: 0 auto;
+	width: 990px;
+	
+}
+#container #principal{
+	display: inline-block;
+	height: 200px;
+	width: 300px;
+	margin-top: 50px;	
+	margin-left: 250px;
+	
+}
+#principal form label{
+	font-size: 23px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#principal form input{
+	font-size: 23px;
+}
+#principal form .btn{
+	font-size: 25px;
+	margin-left: 130px;
+	margin-top: 20px;
+	width: 110px;
+	border: 1 solid;
+	border-radius: 5px;
+}
+
